@@ -1,10 +1,8 @@
 scraping:
     driver_path: chromedriver.exe
-    base_url: https://autoplius.lt/skelbimai/naudoti-automobiliai?make_id=19524&page_nr=
-    pages_to_scrape: 3
-    page_title_text: Tesla Naudoti automobiliai
-    page_title_selector: .js-search-title
-    selector_title: .announcement-item .announcement-title
-    selector_price: .announcement-item .announcement-pricing-info strong
+    base_url: https://finance.yahoo.com/quote/AAPL/history?p=AAPL
+    page_title_text: People Also Watch
+    page_title_selector: #recommendations-by-symbol > h2:nth-child(1) > span:nth-child(1)
+    selector_price: tr.Fz\(s\) > td:nth-child(2) > span:nth-child(1)
 logging:
     log_file_name: main.log
