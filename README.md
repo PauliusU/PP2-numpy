@@ -76,8 +76,8 @@ python ./src/PP2-numpy/main.py
 ## Requirements
 
 - [X] Scrape some data from the internet (does not need to be complex).
-- [ ] Initialize a numpy array from that data.
-- [ ] Perform some calculations over it (mean / average, sum, other simple descriptive statistics, and some array filtering must be included).
+- [X] Initialize a numpy array from that data.
+- [X] Perform some calculations over it (mean / average, sum, other simple descriptive statistics, and some array filtering must be included).
 - [X] Please provide a complete working solution that has some documentation on how to run it and what it does (readme / collab).
 - [X] Please provide the solution as either a GitHub repo or collab notebook with all the data necessary to just launch it.
 
