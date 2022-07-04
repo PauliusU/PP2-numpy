@@ -3,7 +3,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PauliusU/balance_checker/blob/master/LICENSE)
 
 Practical Project 2 (PP2) for Artificial Intelligence studies to
-solidify **NumPy** basics by practicing.
+solidify **NumPy** basics by practicing. Project analyses U.S. national debt-to-GDP ratio in the last century (1929-2021)
 
 <!-- TOC -->
 * [PP2 NumPy](#pp2-numpy)
@@ -75,10 +75,10 @@ python ./src/PP2-numpy/main.py
 
 ## Requirements
 
-- [ ] Scrape some data from the internet (does not need to be complex).
+- [X] Scrape some data from the internet (does not need to be complex).
 - [ ] Initialize a numpy array from that data.
 - [ ] Perform some calculations over it (mean / average, sum, other simple descriptive statistics, and some array filtering must be included).
-- [ ] Please provide a complete working solution that has some documentation on how to run it and what it does (readme / collab).
-- [ ] Please provide the solution as either a github repo or collab notebook with all the data necessary to just launch it.
+- [X] Please provide a complete working solution that has some documentation on how to run it and what it does (readme / collab).
+- [X] Please provide the solution as either a GitHub repo or collab notebook with all the data necessary to just launch it.
 
 ** You can augment your previous PP1 if you want.

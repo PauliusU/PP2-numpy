@@ -1,8 +1,8 @@
 scraping:
-    driver_path: chromedriver.exe
-    base_url: https://finance.yahoo.com/quote/AAPL/history?p=AAPL
-    page_title_text: People Also Watch
-    page_title_selector: #recommendations-by-symbol > h2:nth-child(1) > span:nth-child(1)
-    selector_price: tr.Fz\(s\) > td:nth-child(2) > span:nth-child(1)
+  driver_path: 'chromedriver.exe'
+  base_url: 'https://www.thebalance.com/national-debt-by-year-compared-to-gdp-and-major-events-3306287'
+  page_title_text: 'U.S. National Debt by Year'
+  page_title_selector: '#article-heading__container_2-0'
+  selector_price: '.mntl-sc-block-table__table > tbody:nth-child(6) > tr > td:nth-child(3)'
 logging:
-    log_file_name: main.log
+  log_file_name: 'main.log'

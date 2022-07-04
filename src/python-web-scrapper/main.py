@@ -3,5 +3,5 @@ import scraper
 
 if __name__ == '__main__':
     config = config_loader.get_config()
-    share_price_data = scraper.scrape_site(config)
+    debt_to_GDP_data = scraper.scrape_site(config)
 

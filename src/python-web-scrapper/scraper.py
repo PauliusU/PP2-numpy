@@ -47,8 +47,11 @@ def scrape_site(config) -> list:
                                                         selector_price)
 
             for i in range(0, len(elements_with_prices)):
-                print(elements_with_prices[i].text)
-                prices.append(elements_with_prices[i].text)
+                price = elements_with_prices[i].text
+                price = price.replace("%", "")  # Remove percent signs
+                price = int(price)  # Convert to integers
+
+                prices.append(price)
 
         return prices
     except Exception as err:
