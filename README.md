@@ -1,12 +1,12 @@
-# PP2 numpy
+# PP2 NumPy
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PauliusU/balance_checker/blob/master/LICENSE)
 
 Practical Project 2 (PP2) for Artificial Intelligence studies to
-solidify Numpy basics by practicing.
+solidify **NumPy** basics by practicing.
 
 <!-- TOC -->
-* [PP2 numpy](#pp2-numpy)
+* [PP2 NumPy](#pp2-numpy)
   * [Usage](#usage)
       * [Automatic launch](#automatic-launch)
       * [Manual launch](#manual-launch)
