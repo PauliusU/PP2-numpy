@@ -1,4 +1,4 @@
-# python-web-scrapper
+# PP2 numpy
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PauliusU/balance_checker/blob/master/LICENSE)
 
@@ -6,12 +6,11 @@ Practical Project 2 (PP2) for Artificial Intelligence studies to
 solidify Numpy basics by practicing.
 
 <!-- TOC -->
-* [python-web-scrapper](#python-web-scrapper)
+* [PP2 numpy](#pp2-numpy)
   * [Usage](#usage)
       * [Automatic launch](#automatic-launch)
       * [Manual launch](#manual-launch)
   * [Requirements](#requirements)
-  * [Optional requirements [to be done later]](#optional-requirements-to-be-done-later)
 <!-- TOC -->
 
 ## Usage
@@ -19,19 +18,19 @@ solidify Numpy basics by practicing.
 #### Automatic launch
 For Windows installation just **run automatic setup script** in Git Bash:
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/PauliusU/numpy-basics/master/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/PauliusU/PP2-numpy/master/setup.sh)
 ```
 
 #### Manual launch
 
 1. Clone this repo:
 ```bash
-git clone https://github.com/PauliusU/numpy-basics.git
+git clone https://github.com/PauliusU/PP2-numpy.git
 ```
 
 2. Navigate into project:
 ```bash
-cd numpy-basics/
+cd PP2-numpy/
 ```
 
 3. Ensure pipenv is installed:
@@ -71,7 +70,7 @@ cd ..
 
 10. Run project:
 ```bash
-python ./src/numpy-basics/main.py
+python ./src/PP2-numpy/main.py
 ```
 
 ## Requirements
